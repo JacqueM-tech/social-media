@@ -1,0 +1,50 @@
+html{
+    font-family: sans-serif;
+}
+header{
+    background: #37538C;
+    color: #fafafa;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo a{
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+   }
+.menu a{
+    text-decoration: none;
+    color: #fafafa;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li {
+    margin-left: 20px;
+}
+.icon-links a{
+    color: #fafafa;
+}
+.icon-links ul {
+    display: flex;
+}
+.icon-links ul li {
+    margin-left: 20px;
+}
+.icon-links .privacy {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.search-area ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.search-area ul li {
+    margin-left: 15px;
+}
